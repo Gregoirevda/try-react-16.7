@@ -1,6 +1,6 @@
-export const delay = (ms, cb) => {
+export const delay = (ms) => {
   let timer;
-  return value => {
+  return (cb, value) => {
     if(timer) {
       clearTimeout(timer)
     }
