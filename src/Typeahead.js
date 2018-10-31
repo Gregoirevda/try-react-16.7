@@ -2,7 +2,7 @@ import React, { useState, useEffect, memo } from 'react';
 import axios from 'axios';
 import { delay } from './utils';
 
-const ACCESS_TOKEN = "165290768989c789c92bec860280fa00f26af836";
+const ACCESS_TOKEN = "";
 const GITHUB_SEARCH_API = `https://api.github.com/search/users?access_token=${ACCESS_TOKEN}&q=`;
 const SEARCH_LIMIT = 10;
 
